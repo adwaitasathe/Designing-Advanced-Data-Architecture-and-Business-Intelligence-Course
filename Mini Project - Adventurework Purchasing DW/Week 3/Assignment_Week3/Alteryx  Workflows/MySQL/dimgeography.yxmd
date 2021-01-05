@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>419A285414F9616908EC24908612A</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimsalesterritory.SalesTerritoryKey 
+from dimsalesterritory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=awdwp
+Query=select dimsalesterritory.Sal...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="SalesTerritoryKey" source="File: odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimsalesterritory.SalesTerritoryKey &#xA;from dimsalesterritory" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorksDW.dbo.DimGeography.City,
+	AdventureWorksDW.dbo.DimGeography.StateProvinceCode,
+	AdventureWorksDW.dbo.DimGeography.StateProvinceName,
+	AdventureWorksDW.dbo.DimGeography.CountryRegionCode,
+	AdventureWorksDW.dbo.DimGeography.EnglishCountryRegionName,
+	AdventureWorksDW.dbo.DimGeography.PostalCode,
+	AdventureWorksDW.dbo.DimGeography.SalesTerritoryKey 
+from AdventureWorksDW.dbo.DimGeography</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorksDW.dbo....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="30" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimGeography.City,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceCode,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceName,&#xA;	AdventureWorksDW.dbo.DimGeography.CountryRegionCode,&#xA;	AdventureWorksDW.dbo.DimGeography.EnglishCountryRegionName,&#xA;	AdventureWorksDW.dbo.DimGeography.PostalCode,&#xA;	AdventureWorksDW.dbo.DimGeography.SalesTerritoryKey &#xA;from AdventureWorksDW.dbo.DimGeography" type="V_WString" />
+            <Field name="StateProvinceCode" size="3" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimGeography.City,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceCode,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceName,&#xA;	AdventureWorksDW.dbo.DimGeography.CountryRegionCode,&#xA;	AdventureWorksDW.dbo.DimGeography.EnglishCountryRegionName,&#xA;	AdventureWorksDW.dbo.DimGeography.PostalCode,&#xA;	AdventureWorksDW.dbo.DimGeography.SalesTerritoryKey &#xA;from AdventureWorksDW.dbo.DimGeography" type="V_WString" />
+            <Field name="StateProvinceName" size="50" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimGeography.City,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceCode,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceName,&#xA;	AdventureWorksDW.dbo.DimGeography.CountryRegionCode,&#xA;	AdventureWorksDW.dbo.DimGeography.EnglishCountryRegionName,&#xA;	AdventureWorksDW.dbo.DimGeography.PostalCode,&#xA;	AdventureWorksDW.dbo.DimGeography.SalesTerritoryKey &#xA;from AdventureWorksDW.dbo.DimGeography" type="V_WString" />
+            <Field name="CountryRegionCode" size="3" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimGeography.City,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceCode,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceName,&#xA;	AdventureWorksDW.dbo.DimGeography.CountryRegionCode,&#xA;	AdventureWorksDW.dbo.DimGeography.EnglishCountryRegionName,&#xA;	AdventureWorksDW.dbo.DimGeography.PostalCode,&#xA;	AdventureWorksDW.dbo.DimGeography.SalesTerritoryKey &#xA;from AdventureWorksDW.dbo.DimGeography" type="V_WString" />
+            <Field name="EnglishCountryRegionName" size="50" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimGeography.City,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceCode,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceName,&#xA;	AdventureWorksDW.dbo.DimGeography.CountryRegionCode,&#xA;	AdventureWorksDW.dbo.DimGeography.EnglishCountryRegionName,&#xA;	AdventureWorksDW.dbo.DimGeography.PostalCode,&#xA;	AdventureWorksDW.dbo.DimGeography.SalesTerritoryKey &#xA;from AdventureWorksDW.dbo.DimGeography" type="V_WString" />
+            <Field name="PostalCode" size="15" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimGeography.City,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceCode,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceName,&#xA;	AdventureWorksDW.dbo.DimGeography.CountryRegionCode,&#xA;	AdventureWorksDW.dbo.DimGeography.EnglishCountryRegionName,&#xA;	AdventureWorksDW.dbo.DimGeography.PostalCode,&#xA;	AdventureWorksDW.dbo.DimGeography.SalesTerritoryKey &#xA;from AdventureWorksDW.dbo.DimGeography" type="V_WString" />
+            <Field name="SalesTerritoryKey" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimGeography.City,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceCode,&#xA;	AdventureWorksDW.dbo.DimGeography.StateProvinceName,&#xA;	AdventureWorksDW.dbo.DimGeography.CountryRegionCode,&#xA;	AdventureWorksDW.dbo.DimGeography.EnglishCountryRegionName,&#xA;	AdventureWorksDW.dbo.DimGeography.PostalCode,&#xA;	AdventureWorksDW.dbo.DimGeography.SalesTerritoryKey &#xA;from AdventureWorksDW.dbo.DimGeography" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="234" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="SalesTerritoryKey" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="SalesTerritoryKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_SalesTerritoryKey" selected="True" rename="Right_SalesTerritoryKey" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="510" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||dimgeography</File>
+          <Passwords>419A285414F9616908EC24908612A</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="SalesTerritoryKey" Dest="SalesTerritoryKey" />
+                <Field Source="City" Dest="City" />
+                <Field Source="StateProvinceCode" Dest="StateProvinceCode" />
+                <Field Source="StateProvinceName" Dest="StateProvinceName" />
+                <Field Source="CountryRegionCode" Dest="CountryRegionCode" />
+                <Field Source="EnglishCountryRegionName" Dest="EnglishCountryRegionName" />
+                <Field Source="PostalCode" Dest="PostalCode" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Append</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=awdwp
+Query=dimgeography</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SalesTerritoryKey" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="StateProvinceCode" selected="True" />
+            <SelectField field="StateProvinceName" selected="True" />
+            <SelectField field="CountryRegionCode" selected="True" />
+            <SelectField field="EnglishCountryRegionName" selected="True" />
+            <SelectField field="PostalCode" selected="True" />
+            <SelectField field="Right_SalesTerritoryKey" selected="False" rename="SalesTerritoryKey" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>dimgeography</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

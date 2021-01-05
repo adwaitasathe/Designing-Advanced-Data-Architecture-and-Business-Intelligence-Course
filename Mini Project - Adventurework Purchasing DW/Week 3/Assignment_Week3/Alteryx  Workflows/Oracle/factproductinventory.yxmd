@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Production.ProductInventory.Shelf,
+	AdventureWorks2017.Production.ProductInventory.Bin,
+	AdventureWorks2017.Production.ProductInventory.Quantity,
+	AdventureWorks2017.Production.ProductInventory.LocationID,
+	AdventureWorks2017.Production.ProductInventory.ProductID 
+from AdventureWorks2017.Production.ProductInventory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Shelf" size="10" source="File: aka:info7370_input_c|||select AdventureWorks2017.Production.ProductInventory.Shelf,&#xA;	AdventureWorks2017.Production.ProductInventory.Bin,&#xA;	AdventureWorks2017.Production.ProductInventory.Quantity,&#xA;	AdventureWorks2017.Production.ProductInventory.LocationID,&#xA;	AdventureWorks2017.Production.ProductInventory.ProductID &#xA;from AdventureWorks2017.Production.ProductInventory" type="V_WString" />
+            <Field name="Bin" source="File: aka:info7370_input_c|||select AdventureWorks2017.Production.ProductInventory.Shelf,&#xA;	AdventureWorks2017.Production.ProductInventory.Bin,&#xA;	AdventureWorks2017.Production.ProductInventory.Quantity,&#xA;	AdventureWorks2017.Production.ProductInventory.LocationID,&#xA;	AdventureWorks2017.Production.ProductInventory.ProductID &#xA;from AdventureWorks2017.Production.ProductInventory" type="Int16" />
+            <Field name="Quantity" source="File: aka:info7370_input_c|||select AdventureWorks2017.Production.ProductInventory.Shelf,&#xA;	AdventureWorks2017.Production.ProductInventory.Bin,&#xA;	AdventureWorks2017.Production.ProductInventory.Quantity,&#xA;	AdventureWorks2017.Production.ProductInventory.LocationID,&#xA;	AdventureWorks2017.Production.ProductInventory.ProductID &#xA;from AdventureWorks2017.Production.ProductInventory" type="Int16" />
+            <Field name="LocationID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Production.ProductInventory.Shelf,&#xA;	AdventureWorks2017.Production.ProductInventory.Bin,&#xA;	AdventureWorks2017.Production.ProductInventory.Quantity,&#xA;	AdventureWorks2017.Production.ProductInventory.LocationID,&#xA;	AdventureWorks2017.Production.ProductInventory.ProductID &#xA;from AdventureWorks2017.Production.ProductInventory" type="Int16" />
+            <Field name="ProductID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Production.ProductInventory.Shelf,&#xA;	AdventureWorks2017.Production.ProductInventory.Bin,&#xA;	AdventureWorks2017.Production.ProductInventory.Quantity,&#xA;	AdventureWorks2017.Production.ProductInventory.LocationID,&#xA;	AdventureWorks2017.Production.ProductInventory.ProductID &#xA;from AdventureWorks2017.Production.ProductInventory" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>419A285414F9616908EC24908612A</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimproduct.ProductKey_SK,
+	dimproduct.ProductKey_NK 
+from dimproduct</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=awdwp
+Query=select dimproduct.ProductKey...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="ProductKey_SK" source="File: odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimproduct.ProductKey_SK,&#xA;	dimproduct.ProductKey_NK &#xA;from dimproduct" type="Int32" />
+            <Field name="ProductKey_NK" source="File: odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimproduct.ProductKey_SK,&#xA;	dimproduct.ProductKey_NK &#xA;from dimproduct" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="266" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ProductKey_NK" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ProductID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ProductKey_SK" selected="True" input="Left_" />
+                <SelectField field="Left_ProductKey_NK" selected="True" input="Left_" />
+                <SelectField field="Right_Shelf" selected="True" input="Right_" />
+                <SelectField field="Right_Bin" selected="True" input="Right_" />
+                <SelectField field="Right_Quantity" selected="True" input="Right_" />
+                <SelectField field="Right_LocationID" selected="True" input="Right_" />
+                <SelectField field="Right_ProductID" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="494" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductKey_SK" selected="True" />
+            <SelectField field="Shelf" selected="True" />
+            <SelectField field="Bin" selected="True" />
+            <SelectField field="Quantity" selected="True" />
+            <SelectField field="LocationName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="570" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||factproductinventory</File>
+          <Passwords>419A285414F9616908EC24908612A</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="ProductKey_SK" Dest="ProductKey_SK" />
+                <Field Source="Shelf" Dest="Shelf" />
+                <Field Source="Bin" Dest="Bin" />
+                <Field Source="Quantity" Dest="Quantity" />
+                <Field Source="LocationName" Dest="LocationName" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Append</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=awdwp
+Query=factproductinventory</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="418" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="LocationID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="LocationID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ProductKey_SK" selected="True" input="Left_" />
+                <SelectField field="Left_ProductKey_NK" selected="True" input="Left_" />
+                <SelectField field="Left_Shelf" selected="True" input="Left_" />
+                <SelectField field="Left_Bin" selected="True" input="Left_" />
+                <SelectField field="Left_Quantity" selected="True" input="Left_" />
+                <SelectField field="Left_LocationID" selected="True" input="Left_" />
+                <SelectField field="Left_ProductID" selected="True" input="Left_" />
+                <SelectField field="Right_LocationID" selected="False" rename="Right_LocationID" input="Right_" />
+                <SelectField field="Right_Name" selected="True" rename="LocationName" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="330" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Production.Location.LocationID,
+	AdventureWorks2017.Production.Location.Name 
+from AdventureWorks2017.Production.Location</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="LocationID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Production.Location.LocationID,&#xA;	AdventureWorks2017.Production.Location.Name &#xA;from AdventureWorks2017.Production.Location" type="Int16" />
+            <Field name="Name" size="50" source="File: aka:info7370_input_c|||select AdventureWorks2017.Production.Location.LocationID,&#xA;	AdventureWorks2017.Production.Location.Name &#xA;from AdventureWorks2017.Production.Location" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>factproductinventory</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

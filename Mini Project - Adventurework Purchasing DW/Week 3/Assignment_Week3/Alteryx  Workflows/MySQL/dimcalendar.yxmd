@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="222" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,
+	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,
+	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,
+	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,
+	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,
+	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,
+	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,
+	AdventureWorksDW.dbo.DimDate.EnglishMonthName,
+	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,
+	AdventureWorksDW.dbo.DimDate.CalendarQuarter,
+	AdventureWorksDW.dbo.DimDate.CalendarYear,
+	AdventureWorksDW.dbo.DimDate.CalendarSemester,
+	AdventureWorksDW.dbo.DimDate.FiscalQuarter,
+	AdventureWorksDW.dbo.DimDate.FiscalYear,
+	AdventureWorksDW.dbo.DimDate.FiscalSemester 
+from AdventureWorksDW.dbo.DimDate</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>None</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorksDW.dbo....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DateKey" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int32" />
+            <Field name="FullDateAlternateKey" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Date" />
+            <Field name="DayNumberOfWeek" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="EnglishDayNameOfWeek" size="10" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="V_WString" />
+            <Field name="DayNumberOfMonth" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="DayNumberOfYear" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="WeekNumberOfYear" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="EnglishMonthName" size="10" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="V_WString" />
+            <Field name="MonthNumberOfYear" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="CalendarQuarter" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="CalendarYear" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="CalendarSemester" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="FiscalQuarter" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="FiscalYear" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+            <Field name="FiscalSemester" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimDate.DateKey,&#xA;	AdventureWorksDW.dbo.DimDate.FullDateAlternateKey,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishDayNameOfWeek,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfMonth,&#xA;	AdventureWorksDW.dbo.DimDate.DayNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.WeekNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.EnglishMonthName,&#xA;	AdventureWorksDW.dbo.DimDate.MonthNumberOfYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarYear,&#xA;	AdventureWorksDW.dbo.DimDate.CalendarSemester,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalQuarter,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalYear,&#xA;	AdventureWorksDW.dbo.DimDate.FiscalSemester &#xA;from AdventureWorksDW.dbo.DimDate" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="DateKey" selected="True" />
+            <SelectField field="FullDateAlternateKey" selected="True" />
+            <SelectField field="DayNumberOfWeek" selected="True" />
+            <SelectField field="EnglishDayNameOfWeek" selected="True" />
+            <SelectField field="DayNumberOfMonth" selected="True" />
+            <SelectField field="DayNumberOfYear" selected="True" />
+            <SelectField field="WeekNumberOfYear" selected="True" />
+            <SelectField field="EnglishMonthName" selected="True" />
+            <SelectField field="MonthNumberOfYear" selected="True" />
+            <SelectField field="CalendarQuarter" selected="True" />
+            <SelectField field="CalendarYear" selected="True" />
+            <SelectField field="CalendarSemester" selected="True" />
+            <SelectField field="FiscalQuarter" selected="True" />
+            <SelectField field="FiscalYear" selected="True" />
+            <SelectField field="FiscalSemester" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="510" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||dimcalendar</File>
+          <Passwords>419A285414F9616908EC24908612A</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="DateKey" Dest="DateKey" />
+                <Field Source="FullDateAlternateKey" Dest="FullDateAlternateKey" />
+                <Field Source="DayNumberOfWeek" Dest="DayNumberOfWeek" />
+                <Field Source="EnglishDayNameOfWeek" Dest="EnglishDayNameOfWeek" />
+                <Field Source="DayNumberOfMonth" Dest="DayNumberOfMonth" />
+                <Field Source="DayNumberOfYear" Dest="DayNumberOfYear" />
+                <Field Source="WeekNumberOfYear" Dest="WeekNumberOfYear" />
+                <Field Source="EnglishMonthName" Dest="EnglishMonthName" />
+                <Field Source="MonthNumberOfYear" Dest="MonthNumberOfYear" />
+                <Field Source="CalendarQuarter" Dest="CalendarQuarter" />
+                <Field Source="CalendarYear" Dest="CalendarYear" />
+                <Field Source="CalendarSemester" Dest="CalendarSemester" />
+                <Field Source="FiscalQuarter" Dest="FiscalQuarter" />
+                <Field Source="FiscalYear" Dest="FiscalYear" />
+                <Field Source="FiscalSemester" Dest="FiscalSemester" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Append</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=awdwp
+Query=dimcalendar</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>dimcalendar</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

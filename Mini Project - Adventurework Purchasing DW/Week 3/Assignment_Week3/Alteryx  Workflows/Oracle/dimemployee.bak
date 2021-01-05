@@ -1,0 +1,2318 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="282" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,
+	AdventureWorks2017.Person.Person.PersonType,
+	AdventureWorks2017.Person.Person.FirstName,
+	AdventureWorks2017.Person.Person.MiddleName,
+	AdventureWorks2017.Person.Person.LastName,
+	AdventureWorks2017.Person.Person.NameStyle,
+	AdventureWorks2017.Person.Person.Title 
+from AdventureWorks2017.Person.Person
+where AdventureWorks2017.Person.Person.PersonType in ('VC','EM')</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessEntityID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person&#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC','EM')" type="Int32" />
+            <Field name="PersonType" size="2" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person&#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC','EM')" type="WString" />
+            <Field name="FirstName" size="50" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person&#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC','EM')" type="V_WString" />
+            <Field name="MiddleName" size="50" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person&#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC','EM')" type="V_WString" />
+            <Field name="LastName" size="50" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person&#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC','EM')" type="V_WString" />
+            <Field name="NameStyle" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person&#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC','EM')" type="Bool" />
+            <Field name="Title" size="8" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person&#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC','EM')" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,
+	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,
+	AdventureWorks2017.HumanResources.Employee.LoginID,
+	AdventureWorks2017.HumanResources.Employee.HireDate,
+	AdventureWorks2017.HumanResources.Employee.BirthDate,
+	AdventureWorks2017.HumanResources.Employee.MaritalStatus,
+	AdventureWorks2017.HumanResources.Employee.Gender,
+	AdventureWorks2017.HumanResources.Employee.SalariedFlag,
+	AdventureWorks2017.HumanResources.Employee.VacationHours,
+	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,
+	AdventureWorks2017.HumanResources.Employee.CurrentFlag 
+from AdventureWorks2017.HumanResources.Employee</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Hu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessEntityID" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="Int32" />
+            <Field name="NationalIDNumber" size="15" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="V_WString" />
+            <Field name="LoginID" size="256" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="V_WString" />
+            <Field name="HireDate" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="Date" />
+            <Field name="BirthDate" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="Date" />
+            <Field name="MaritalStatus" size="1" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="WString" />
+            <Field name="Gender" size="1" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="WString" />
+            <Field name="SalariedFlag" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="Bool" />
+            <Field name="VacationHours" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="Int16" />
+            <Field name="SickLeaveHours" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="Int16" />
+            <Field name="CurrentFlag" source="File: aka:info7370_input_c|||select AdventureWorks2017.HumanResources.Employee.BusinessEntityID,&#xA;	AdventureWorks2017.HumanResources.Employee.NationalIDNumber,&#xA;	AdventureWorks2017.HumanResources.Employee.LoginID,&#xA;	AdventureWorks2017.HumanResources.Employee.HireDate,&#xA;	AdventureWorks2017.HumanResources.Employee.BirthDate,&#xA;	AdventureWorks2017.HumanResources.Employee.MaritalStatus,&#xA;	AdventureWorks2017.HumanResources.Employee.Gender,&#xA;	AdventureWorks2017.HumanResources.Employee.SalariedFlag,&#xA;	AdventureWorks2017.HumanResources.Employee.VacationHours,&#xA;	AdventureWorks2017.HumanResources.Employee.SickLeaveHours,&#xA;	AdventureWorks2017.HumanResources.Employee.CurrentFlag &#xA;from AdventureWorks2017.HumanResources.Employee" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="258" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="EmployeeID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Right_BusinessEntityID" selected="True" input="Right_" />
+                <SelectField field="Right_NationalIDNumber" selected="True" input="Right_" />
+                <SelectField field="Right_LoginID" selected="True" input="Right_" />
+                <SelectField field="Right_HireDate" selected="True" input="Right_" />
+                <SelectField field="Right_BirthDate" selected="True" input="Right_" />
+                <SelectField field="Right_MaritalStatus" selected="True" input="Right_" />
+                <SelectField field="Right_Gender" selected="True" input="Right_" />
+                <SelectField field="Right_SalariedFlag" selected="True" input="Right_" />
+                <SelectField field="Right_VacationHours" selected="True" input="Right_" />
+                <SelectField field="Right_SickLeaveHours" selected="True" input="Right_" />
+                <SelectField field="Right_CurrentFlag" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1422" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.EmailAddress.BusinessEntityID,
+	AdventureWorks2017.Person.EmailAddress.EmailAddress 
+from AdventureWorks2017.Person.EmailAddress</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessEntityID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.EmailAddress.BusinessEntityID,&#xA;	AdventureWorks2017.Person.EmailAddress.EmailAddress &#xA;from AdventureWorks2017.Person.EmailAddress" type="Int32" />
+            <Field name="EmailAddress" size="50" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.EmailAddress.BusinessEntityID,&#xA;	AdventureWorks2017.Person.EmailAddress.EmailAddress &#xA;from AdventureWorks2017.Person.EmailAddress" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="462" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_BusinessEntityID" selected="True" input="Left_" />
+                <SelectField field="Left_NationalIDNumber" selected="True" input="Left_" />
+                <SelectField field="Left_LoginID" selected="True" input="Left_" />
+                <SelectField field="Left_HireDate" selected="True" input="Left_" />
+                <SelectField field="Left_BirthDate" selected="True" input="Left_" />
+                <SelectField field="Left_MaritalStatus" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_SalariedFlag" selected="True" input="Left_" />
+                <SelectField field="Left_VacationHours" selected="True" input="Left_" />
+                <SelectField field="Left_SickLeaveHours" selected="True" input="Left_" />
+                <SelectField field="Left_CurrentFlag" selected="True" input="Left_" />
+                <SelectField field="Right_BusinessEntityID" selected="True" rename="Right_BusinessEntityID" input="Right_" />
+                <SelectField field="Right_PersonType" selected="True" input="Right_" />
+                <SelectField field="Right_FirstName" selected="True" input="Right_" />
+                <SelectField field="Right_MiddleName" selected="True" input="Right_" />
+                <SelectField field="Right_LastName" selected="True" input="Right_" />
+                <SelectField field="Right_NameStyle" selected="True" input="Right_" />
+                <SelectField field="Right_Title" selected="True" input="Right_" />
+                <SelectField field="Left_Right_BusinessEntityID" selected="False" rename="Left_Right_BusinessEntityID" input="Left_" />
+                <SelectField field="Right_VendorID" selected="False" rename="Right_VendorID" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="738" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1554" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.PersonPhone.PhoneNumber,
+	AdventureWorks2017.Person.PersonPhone.BusinessEntityID 
+from AdventureWorks2017.Person.PersonPhone</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PhoneNumber" size="25" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.PersonPhone.PhoneNumber,&#xA;	AdventureWorks2017.Person.PersonPhone.BusinessEntityID &#xA;from AdventureWorks2017.Person.PersonPhone" type="V_WString" />
+            <Field name="BusinessEntityID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.PersonPhone.PhoneNumber,&#xA;	AdventureWorks2017.Person.PersonPhone.BusinessEntityID &#xA;from AdventureWorks2017.Person.PersonPhone" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1722" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_PersonType" selected="True" input="Left_" />
+                <SelectField field="Left_FirstName" selected="True" input="Left_" />
+                <SelectField field="Left_MiddleName" selected="True" input="Left_" />
+                <SelectField field="Left_LastName" selected="True" input="Left_" />
+                <SelectField field="Left_NameStyle" selected="True" input="Left_" />
+                <SelectField field="Left_Title" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_BusinessEntityID" selected="True" input="Left_" />
+                <SelectField field="Left_NationalIDNumber" selected="True" input="Left_" />
+                <SelectField field="Left_LoginID" selected="True" input="Left_" />
+                <SelectField field="Left_HireDate" selected="True" input="Left_" />
+                <SelectField field="Left_BirthDate" selected="True" input="Left_" />
+                <SelectField field="Left_MaritalStatus" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_SalariedFlag" selected="True" input="Left_" />
+                <SelectField field="Left_VacationHours" selected="True" input="Left_" />
+                <SelectField field="Left_SickLeaveHours" selected="True" input="Left_" />
+                <SelectField field="Left_CurrentFlag" selected="True" input="Left_" />
+                <SelectField field="Left_EmailAddress" selected="True" input="Left_" />
+                <SelectField field="Right_PhoneNumber" selected="True" input="Right_" />
+                <SelectField field="Right_BusinessEntityID" selected="False" rename="Right_BusinessEntityID" input="Right_" />
+                <SelectField field="Left_Right_BusinessEntityID" selected="False" rename="Left_Right_BusinessEntityID" input="Left_" />
+                <SelectField field="Left_Left_Right_BusinessEntityID" selected="False" rename="Left_Left_Right_BusinessEntityID" input="Left_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1914" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1710" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.BusinessEntityAddress.BusinessEntityID,
+	AdventureWorks2017.Person.BusinessEntityAddress.AddressID 
+from AdventureWorks2017.Person.BusinessEntityAddress</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessEntityID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.BusinessEntityAddress.BusinessEntityID,&#xA;	AdventureWorks2017.Person.BusinessEntityAddress.AddressID &#xA;from AdventureWorks2017.Person.BusinessEntityAddress" type="Int32" />
+            <Field name="AddressID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.BusinessEntityAddress.BusinessEntityID,&#xA;	AdventureWorks2017.Person.BusinessEntityAddress.AddressID &#xA;from AdventureWorks2017.Person.BusinessEntityAddress" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2010" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_PersonType" selected="True" input="Left_" />
+                <SelectField field="Left_FirstName" selected="True" input="Left_" />
+                <SelectField field="Left_MiddleName" selected="True" input="Left_" />
+                <SelectField field="Left_LastName" selected="True" input="Left_" />
+                <SelectField field="Left_NameStyle" selected="True" input="Left_" />
+                <SelectField field="Left_Title" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_BusinessEntityID" selected="True" input="Left_" />
+                <SelectField field="Left_NationalIDNumber" selected="True" input="Left_" />
+                <SelectField field="Left_LoginID" selected="True" input="Left_" />
+                <SelectField field="Left_HireDate" selected="True" input="Left_" />
+                <SelectField field="Left_BirthDate" selected="True" input="Left_" />
+                <SelectField field="Left_MaritalStatus" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_SalariedFlag" selected="True" input="Left_" />
+                <SelectField field="Left_VacationHours" selected="True" input="Left_" />
+                <SelectField field="Left_SickLeaveHours" selected="True" input="Left_" />
+                <SelectField field="Left_CurrentFlag" selected="True" input="Left_" />
+                <SelectField field="Left_EmailAddress" selected="True" input="Left_" />
+                <SelectField field="Left_PhoneNumber" selected="True" input="Left_" />
+                <SelectField field="Right_BusinessEntityID" selected="True" rename="Right_BusinessEntityID" input="Right_" />
+                <SelectField field="Right_AddressID" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="2190" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.Address.AddressID,
+	AdventureWorks2017.Person.Address.StateProvinceID 
+from AdventureWorks2017.Person.Address</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AddressID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Address.AddressID,&#xA;	AdventureWorks2017.Person.Address.StateProvinceID &#xA;from AdventureWorks2017.Person.Address" type="Int32" />
+            <Field name="StateProvinceID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Address.AddressID,&#xA;	AdventureWorks2017.Person.Address.StateProvinceID &#xA;from AdventureWorks2017.Person.Address" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2106" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="True" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2310" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="AddressID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="AddressID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_PersonType" selected="True" input="Left_" />
+                <SelectField field="Left_FirstName" selected="True" input="Left_" />
+                <SelectField field="Left_MiddleName" selected="True" input="Left_" />
+                <SelectField field="Left_LastName" selected="True" input="Left_" />
+                <SelectField field="Left_NameStyle" selected="True" input="Left_" />
+                <SelectField field="Left_Title" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_BusinessEntityID" selected="True" input="Left_" />
+                <SelectField field="Left_NationalIDNumber" selected="True" input="Left_" />
+                <SelectField field="Left_LoginID" selected="True" input="Left_" />
+                <SelectField field="Left_HireDate" selected="True" input="Left_" />
+                <SelectField field="Left_BirthDate" selected="True" input="Left_" />
+                <SelectField field="Left_MaritalStatus" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_SalariedFlag" selected="True" input="Left_" />
+                <SelectField field="Left_VacationHours" selected="True" input="Left_" />
+                <SelectField field="Left_SickLeaveHours" selected="True" input="Left_" />
+                <SelectField field="Left_CurrentFlag" selected="True" input="Left_" />
+                <SelectField field="Left_EmailAddress" selected="True" input="Left_" />
+                <SelectField field="Left_PhoneNumber" selected="True" input="Left_" />
+                <SelectField field="Left_AddressID" selected="True" input="Left_" />
+                <SelectField field="Right_AddressID" selected="False" rename="Right_AddressID" input="Right_" />
+                <SelectField field="Right_StateProvinceID" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="2394" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.StateProvince.StateProvinceID,
+	AdventureWorks2017.Person.StateProvince.TerritoryID 
+from AdventureWorks2017.Person.StateProvince</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StateProvinceID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2017.Person.StateProvince.TerritoryID &#xA;from AdventureWorks2017.Person.StateProvince" type="Int32" />
+            <Field name="TerritoryID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.StateProvince.StateProvinceID,&#xA;	AdventureWorks2017.Person.StateProvince.TerritoryID &#xA;from AdventureWorks2017.Person.StateProvince" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2682" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StateProvinceID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StateProvinceID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_PersonType" selected="True" input="Left_" />
+                <SelectField field="Left_FirstName" selected="True" input="Left_" />
+                <SelectField field="Left_MiddleName" selected="True" input="Left_" />
+                <SelectField field="Left_LastName" selected="True" input="Left_" />
+                <SelectField field="Left_NameStyle" selected="True" input="Left_" />
+                <SelectField field="Left_Title" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_BusinessEntityID" selected="True" input="Left_" />
+                <SelectField field="Left_NationalIDNumber" selected="True" input="Left_" />
+                <SelectField field="Left_LoginID" selected="True" input="Left_" />
+                <SelectField field="Left_HireDate" selected="True" input="Left_" />
+                <SelectField field="Left_BirthDate" selected="True" input="Left_" />
+                <SelectField field="Left_MaritalStatus" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_SalariedFlag" selected="True" input="Left_" />
+                <SelectField field="Left_VacationHours" selected="True" input="Left_" />
+                <SelectField field="Left_SickLeaveHours" selected="True" input="Left_" />
+                <SelectField field="Left_CurrentFlag" selected="True" input="Left_" />
+                <SelectField field="Left_EmailAddress" selected="True" input="Left_" />
+                <SelectField field="Left_PhoneNumber" selected="True" input="Left_" />
+                <SelectField field="Left_AddressID" selected="True" input="Left_" />
+                <SelectField field="Left_StateProvinceID" selected="True" input="Left_" />
+                <SelectField field="Right_StateProvinceID" selected="False" rename="Right_StateProvinceID" input="Right_" />
+                <SelectField field="Right_TerritoryID" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2874" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="StateProvinceID" selected="True" />
+            <SelectField field="TerritoryID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2994" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="TerritoryID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="TerritoryID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_BusinessEntityID" selected="True" input="Left_" />
+                <SelectField field="Left_PersonType" selected="True" input="Left_" />
+                <SelectField field="Left_FirstName" selected="True" input="Left_" />
+                <SelectField field="Left_MiddleName" selected="True" input="Left_" />
+                <SelectField field="Left_LastName" selected="True" input="Left_" />
+                <SelectField field="Left_NameStyle" selected="True" input="Left_" />
+                <SelectField field="Left_Title" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_NationalIDNumber" selected="True" input="Left_" />
+                <SelectField field="Left_LoginID" selected="True" input="Left_" />
+                <SelectField field="Left_HireDate" selected="True" input="Left_" />
+                <SelectField field="Left_BirthDate" selected="True" input="Left_" />
+                <SelectField field="Left_MaritalStatus" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_SalariedFlag" selected="True" input="Left_" />
+                <SelectField field="Left_VacationHours" selected="True" input="Left_" />
+                <SelectField field="Left_SickLeaveHours" selected="True" input="Left_" />
+                <SelectField field="Left_CurrentFlag" selected="True" input="Left_" />
+                <SelectField field="Left_EmailAddress" selected="True" input="Left_" />
+                <SelectField field="Left_PhoneNumber" selected="True" input="Left_" />
+                <SelectField field="Left_AddressID" selected="True" input="Left_" />
+                <SelectField field="Left_StateProvinceID" selected="True" input="Left_" />
+                <SelectField field="Left_TerritoryID" selected="True" input="Left_" />
+                <SelectField field="Right_SalesTerritoryKey_SK" selected="True" input="Right_" />
+                <SelectField field="Right_SalesTerritoryAlternateKey" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3198" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="StateProvinceID" selected="True" />
+            <SelectField field="TerritoryID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3270" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="VendorID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="VendorKey_NK" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_PersonType" selected="True" input="Left_" />
+                <SelectField field="Left_FirstName" selected="True" input="Left_" />
+                <SelectField field="Left_MiddleName" selected="True" input="Left_" />
+                <SelectField field="Left_LastName" selected="True" input="Left_" />
+                <SelectField field="Left_NameStyle" selected="True" input="Left_" />
+                <SelectField field="Left_Title" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_BusinessEntityID" selected="True" input="Left_" />
+                <SelectField field="Left_NationalIDNumber" selected="True" input="Left_" />
+                <SelectField field="Left_LoginID" selected="True" input="Left_" />
+                <SelectField field="Left_HireDate" selected="True" input="Left_" />
+                <SelectField field="Left_BirthDate" selected="True" input="Left_" />
+                <SelectField field="Left_MaritalStatus" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_SalariedFlag" selected="True" input="Left_" />
+                <SelectField field="Left_VacationHours" selected="True" input="Left_" />
+                <SelectField field="Left_SickLeaveHours" selected="True" input="Left_" />
+                <SelectField field="Left_CurrentFlag" selected="True" input="Left_" />
+                <SelectField field="Left_EmailAddress" selected="True" input="Left_" />
+                <SelectField field="Left_PhoneNumber" selected="True" input="Left_" />
+                <SelectField field="Left_AddressID" selected="True" input="Left_" />
+                <SelectField field="Left_StateProvinceID" selected="True" input="Left_" />
+                <SelectField field="Left_SalesTerritoryAlternateKey" selected="True" input="Left_" />
+                <SelectField field="Right_VendorKey_SK" selected="True" input="Right_" />
+                <SelectField field="Right_VendorKey_NK" selected="True" input="Right_" />
+                <SelectField field="Right_SalesTerritoryKey" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="3210" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>419A285414F9616908EC24908612A</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimvendor.VendorKey_SK,
+	dimvendor.VendorKey_NK,
+	dimvendor.SalesTerritoryKey 
+from dimvendor</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=awdwp
+Query=select dimvendor.VendorKey_S...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="PrimaryKey" name="VendorKey_SK" source="File: odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimvendor.VendorKey_SK,&#xA;	dimvendor.VendorKey_NK,&#xA;	dimvendor.SalesTerritoryKey &#xA;from dimvendor" type="Int32" />
+            <Field name="VendorKey_NK" source="File: odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimvendor.VendorKey_SK,&#xA;	dimvendor.VendorKey_NK,&#xA;	dimvendor.SalesTerritoryKey &#xA;from dimvendor" type="Int32" />
+            <Field name="SalesTerritoryKey" source="File: odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimvendor.VendorKey_SK,&#xA;	dimvendor.VendorKey_NK,&#xA;	dimvendor.SalesTerritoryKey &#xA;from dimvendor" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3558" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="StateProvinceID" selected="True" />
+            <SelectField field="SalesTerritoryAlternateKey" selected="True" />
+            <SelectField field="VendorKey_SK" selected="True" />
+            <SelectField field="VendorKey_NK" selected="True" />
+            <SelectField field="SalesTerritoryKey" selected="True" />
+            <SelectField field="TerritoryID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1506" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_PersonType" selected="True" input="Left_" />
+                <SelectField field="Left_FirstName" selected="True" input="Left_" />
+                <SelectField field="Left_MiddleName" selected="True" input="Left_" />
+                <SelectField field="Left_LastName" selected="True" input="Left_" />
+                <SelectField field="Left_NameStyle" selected="True" input="Left_" />
+                <SelectField field="Left_Title" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_BusinessEntityID" selected="True" input="Left_" />
+                <SelectField field="Left_NationalIDNumber" selected="True" input="Left_" />
+                <SelectField field="Left_LoginID" selected="True" input="Left_" />
+                <SelectField field="Left_HireDate" selected="True" input="Left_" />
+                <SelectField field="Left_BirthDate" selected="True" input="Left_" />
+                <SelectField field="Left_MaritalStatus" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_SalariedFlag" selected="True" input="Left_" />
+                <SelectField field="Left_VacationHours" selected="True" input="Left_" />
+                <SelectField field="Left_SickLeaveHours" selected="True" input="Left_" />
+                <SelectField field="Left_CurrentFlag" selected="True" input="Left_" />
+                <SelectField field="Right_BusinessEntityID" selected="False" rename="Right_BusinessEntityID" input="Right_" />
+                <SelectField field="Right_EmailAddress" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Purchasing.PurchaseOrderHeader.EmployeeID,
+	AdventureWorks2017.Purchasing.PurchaseOrderHeader.VendorID 
+from AdventureWorks2017.Purchasing.PurchaseOrderHeader</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="EmployeeID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	AdventureWorks2017.Purchasing.PurchaseOrderHeader.VendorID &#xA;from AdventureWorks2017.Purchasing.PurchaseOrderHeader" type="Int32" />
+            <Field name="VendorID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Purchasing.PurchaseOrderHeader.EmployeeID,&#xA;	AdventureWorks2017.Purchasing.PurchaseOrderHeader.VendorID &#xA;from AdventureWorks2017.Purchasing.PurchaseOrderHeader" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1722" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="3666" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||dimemployee</File>
+          <Passwords>419A285414F9616908EC24908612A</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="PersonType" Dest="PersonType" />
+                <Field Source="FirstName" Dest="FirstName" />
+                <Field Source="MiddleName" Dest="MiddleName" />
+                <Field Source="LastName" Dest="LastName" />
+                <Field Source="NameStyle" Dest="NameStyle" />
+                <Field Source="Title" Dest="Title" />
+                <Field Source="NationalIDNumber" Dest="EmployeeNationalIDAlternateKey" />
+                <Field Source="LoginID" Dest="LoginID" />
+                <Field Source="HireDate" Dest="HireDate" />
+                <Field Source="BirthDate" Dest="BirthDate" />
+                <Field Source="MaritalStatus" Dest="MaritalStatus" />
+                <Field Source="Gender" Dest="Gender" />
+                <Field Source="SalariedFlag" Dest="SalariedFlag" />
+                <Field Source="EmailAddress" Dest="EmailAddress" />
+                <Field Source="PhoneNumber" Dest="Phone" />
+                <Field Source="VendorKey_SK" Dest="VendorKey_SK" />
+                <Field Source="SalesTerritoryKey" Dest="SalesTerritoryKey" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Append</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=awdwp
+Query=dimemployee</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="2784" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Sales.SalesTerritory.TerritoryID 
+from AdventureWorks2017.Sales.SalesTerritory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Sa...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TerritoryID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Sales.SalesTerritory.TerritoryID &#xA;from AdventureWorks2017.Sales.SalesTerritory" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="2896" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords>419A285414F9616908EC24908612A</Passwords>
+          <File RecordLimit="" FileFormat="23">odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimsalesterritory.SalesTerritoryAlternateKey,
+	dimsalesterritory.SalesTerritoryKey 
+from dimsalesterritory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=awdwp
+Query=select dimsalesterritory.Sal...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SalesTerritoryAlternateKey" source="File: odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimsalesterritory.SalesTerritoryAlternateKey,&#xA;	dimsalesterritory.SalesTerritoryKey &#xA;from dimsalesterritory" type="Int32" />
+            <Field description="PrimaryKey" name="SalesTerritoryKey" source="File: odbc:DSN=awdwp;UID=root;PWD=__EncPwd1__|||select dimsalesterritory.SalesTerritoryAlternateKey,&#xA;	dimsalesterritory.SalesTerritoryKey &#xA;from dimsalesterritory" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3006" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="TerritoryID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="SalesTerritoryAlternateKey" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_BusinessEntityID" selected="True" input="Left_" />
+                <SelectField field="Left_PersonType" selected="True" input="Left_" />
+                <SelectField field="Left_FirstName" selected="True" input="Left_" />
+                <SelectField field="Left_MiddleName" selected="True" input="Left_" />
+                <SelectField field="Left_LastName" selected="True" input="Left_" />
+                <SelectField field="Left_NameStyle" selected="True" input="Left_" />
+                <SelectField field="Left_Title" selected="True" input="Left_" />
+                <SelectField field="Left_EmployeeID" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_NationalIDNumber" selected="True" input="Left_" />
+                <SelectField field="Left_LoginID" selected="True" input="Left_" />
+                <SelectField field="Left_HireDate" selected="True" input="Left_" />
+                <SelectField field="Left_BirthDate" selected="True" input="Left_" />
+                <SelectField field="Left_MaritalStatus" selected="True" input="Left_" />
+                <SelectField field="Left_Gender" selected="True" input="Left_" />
+                <SelectField field="Left_SalariedFlag" selected="True" input="Left_" />
+                <SelectField field="Left_VacationHours" selected="True" input="Left_" />
+                <SelectField field="Left_SickLeaveHours" selected="True" input="Left_" />
+                <SelectField field="Left_CurrentFlag" selected="True" input="Left_" />
+                <SelectField field="Left_EmailAddress" selected="True" input="Left_" />
+                <SelectField field="Left_PhoneNumber" selected="True" input="Left_" />
+                <SelectField field="Left_AddressID" selected="True" input="Left_" />
+                <SelectField field="Left_StateProvinceID" selected="True" input="Left_" />
+                <SelectField field="Right_SalesTerritoryAlternateKey" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3198" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="StateProvinceID" selected="True" />
+            <SelectField field="SalesTerritoryAlternateKey" selected="True" />
+            <SelectField field="TerritoryID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="162" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="EmployeeID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="354" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,
+	AdventureWorks2017.Person.Person.PersonType,
+	AdventureWorks2017.Person.Person.FirstName,
+	AdventureWorks2017.Person.Person.MiddleName,
+	AdventureWorks2017.Person.Person.LastName,
+	AdventureWorks2017.Person.Person.NameStyle,
+	AdventureWorks2017.Person.Person.Title 
+from AdventureWorks2017.Person.Person 
+where AdventureWorks2017.Person.Person.PersonType in ('VC')</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessEntityID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person &#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC')" type="Int32" />
+            <Field name="PersonType" size="2" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person &#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC')" type="WString" />
+            <Field name="FirstName" size="50" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person &#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC')" type="V_WString" />
+            <Field name="MiddleName" size="50" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person &#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC')" type="V_WString" />
+            <Field name="LastName" size="50" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person &#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC')" type="V_WString" />
+            <Field name="NameStyle" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person &#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC')" type="Bool" />
+            <Field name="Title" size="8" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.Person.BusinessEntityID,&#xA;	AdventureWorks2017.Person.Person.PersonType,&#xA;	AdventureWorks2017.Person.Person.FirstName,&#xA;	AdventureWorks2017.Person.Person.MiddleName,&#xA;	AdventureWorks2017.Person.Person.LastName,&#xA;	AdventureWorks2017.Person.Person.NameStyle,&#xA;	AdventureWorks2017.Person.Person.Title &#xA;from AdventureWorks2017.Person.Person &#xA;where AdventureWorks2017.Person.Person.PersonType in ('VC')" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="606" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2106" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2202" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2298" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2490" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2586" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="VendorID" selected="True" />
+            <SelectField field="EmployeeID" selected="True" />
+            <SelectField field="BusinessEntityID" selected="True" />
+            <SelectField field="NationalIDNumber" selected="True" />
+            <SelectField field="LoginID" selected="True" />
+            <SelectField field="HireDate" selected="True" />
+            <SelectField field="BirthDate" selected="True" />
+            <SelectField field="MaritalStatus" selected="True" />
+            <SelectField field="Gender" selected="True" />
+            <SelectField field="SalariedFlag" selected="True" />
+            <SelectField field="VacationHours" selected="True" />
+            <SelectField field="SickLeaveHours" selected="True" />
+            <SelectField field="CurrentFlag" selected="True" />
+            <SelectField field="EmailAddress" selected="True" />
+            <SelectField field="PhoneNumber" selected="True" />
+            <SelectField field="AddressID" selected="True" />
+            <SelectField field="StateProvinceID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2778" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1590" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1818" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="3102" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="3114" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="3414" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="366" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.BusinessEntityContact.BusinessEntityID,
+	AdventureWorks2017.Person.BusinessEntityContact.PersonID 
+from AdventureWorks2017.Person.BusinessEntityContact</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessEntityID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.BusinessEntityContact.BusinessEntityID,&#xA;	AdventureWorks2017.Person.BusinessEntityContact.PersonID &#xA;from AdventureWorks2017.Person.BusinessEntityContact" type="Int32" />
+            <Field name="PersonID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.BusinessEntityContact.BusinessEntityID,&#xA;	AdventureWorks2017.Person.BusinessEntityContact.PersonID &#xA;from AdventureWorks2017.Person.BusinessEntityContact" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="450" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="PersonID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_BusinessEntityID" selected="True" rename="Right_BusinessEntityID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="534" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PersonType" selected="True" />
+            <SelectField field="FirstName" selected="True" />
+            <SelectField field="MiddleName" selected="True" />
+            <SelectField field="LastName" selected="True" />
+            <SelectField field="NameStyle" selected="True" />
+            <SelectField field="Title" selected="True" />
+            <SelectField field="Right_BusinessEntityID" selected="True" rename="VendorID" />
+            <SelectField field="PersonID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="582" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.EmailAddress.BusinessEntityID,
+	AdventureWorks2017.Person.EmailAddress.EmailAddress 
+from AdventureWorks2017.Person.EmailAddress</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BusinessEntityID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.EmailAddress.BusinessEntityID,&#xA;	AdventureWorks2017.Person.EmailAddress.EmailAddress &#xA;from AdventureWorks2017.Person.EmailAddress" type="Int32" />
+            <Field name="EmailAddress" size="50" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.EmailAddress.BusinessEntityID,&#xA;	AdventureWorks2017.Person.EmailAddress.EmailAddress &#xA;from AdventureWorks2017.Person.EmailAddress" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="642" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="PersonID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_PersonType" selected="True" input="Left_" />
+                <SelectField field="Left_FirstName" selected="True" input="Left_" />
+                <SelectField field="Left_MiddleName" selected="True" input="Left_" />
+                <SelectField field="Left_LastName" selected="True" input="Left_" />
+                <SelectField field="Left_NameStyle" selected="True" input="Left_" />
+                <SelectField field="Left_Title" selected="True" input="Left_" />
+                <SelectField field="Left_VendorID" selected="True" input="Left_" />
+                <SelectField field="Left_PersonID" selected="True" input="Left_" />
+                <SelectField field="Right_BusinessEntityID" selected="True" input="Right_" />
+                <SelectField field="Right_EmailAddress" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="798" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorks2017.Person.PersonPhone.PhoneNumber,
+	AdventureWorks2017.Person.PersonPhone.BusinessEntityID 
+from AdventureWorks2017.Person.PersonPhone</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorks2017.Pe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PhoneNumber" size="25" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.PersonPhone.PhoneNumber,&#xA;	AdventureWorks2017.Person.PersonPhone.BusinessEntityID &#xA;from AdventureWorks2017.Person.PersonPhone" type="V_WString" />
+            <Field name="BusinessEntityID" source="File: aka:info7370_input_c|||select AdventureWorks2017.Person.PersonPhone.PhoneNumber,&#xA;	AdventureWorks2017.Person.PersonPhone.BusinessEntityID &#xA;from AdventureWorks2017.Person.PersonPhone" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="882" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="PersonID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="BusinessEntityID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_BusinessEntityID" selected="True" rename="Right_BusinessEntityID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1002" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Unique" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="32" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="32" Connection="Left" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Left" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Left" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="16" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="16" Connection="Join" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="16" Connection="Left" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="19" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="19" Connection="Left" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="22" Connection="Left" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="38" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Right" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="29" Connection="Join" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="29" Connection="Left" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="29" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="29" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Left" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="32" Connection="Join" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="38" Connection="Join" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="38" Connection="Left" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="62" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Join" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="65" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Join" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="68" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="68" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Join" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>dimemployee</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

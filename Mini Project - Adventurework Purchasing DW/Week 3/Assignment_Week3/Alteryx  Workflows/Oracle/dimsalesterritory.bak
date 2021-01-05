@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:info7370_input_c|||select AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryAlternateKey,
+	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryRegion,
+	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryCountry,
+	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryGroup,
+	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryImage 
+from AdventureWorksDW.dbo.DimSalesTerritory</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:info7370_input_c
+Query=select AdventureWorksDW.dbo....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SalesTerritoryAlternateKey" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryAlternateKey,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryRegion,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryCountry,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryGroup,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryImage &#xA;from AdventureWorksDW.dbo.DimSalesTerritory" type="Int32" />
+            <Field name="SalesTerritoryRegion" size="50" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryAlternateKey,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryRegion,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryCountry,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryGroup,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryImage &#xA;from AdventureWorksDW.dbo.DimSalesTerritory" type="V_WString" />
+            <Field name="SalesTerritoryCountry" size="50" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryAlternateKey,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryRegion,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryCountry,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryGroup,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryImage &#xA;from AdventureWorksDW.dbo.DimSalesTerritory" type="V_WString" />
+            <Field name="SalesTerritoryGroup" size="50" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryAlternateKey,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryRegion,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryCountry,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryGroup,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryImage &#xA;from AdventureWorksDW.dbo.DimSalesTerritory" type="V_WString" />
+            <Field name="SalesTerritoryImage" size="2147483647" source="File: aka:info7370_input_c|||select AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryAlternateKey,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryRegion,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryCountry,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryGroup,&#xA;	AdventureWorksDW.dbo.DimSalesTerritory.SalesTerritoryImage &#xA;from AdventureWorksDW.dbo.DimSalesTerritory" type="Blob" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SalesTerritoryAlternateKey" selected="True" />
+            <SelectField field="SalesTerritoryRegion" selected="True" />
+            <SelectField field="SalesTerritoryCountry" selected="True" />
+            <SelectField field="SalesTerritoryGroup" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="414" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=awpurcahsedw;UID=root;PWD=__EncPwd1__|||dimsalesterritory</File>
+          <Passwords>419A285414F9616908EC24908612A</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="SalesTerritoryAlternateKey" Dest="SalesTerritoryAlternateKey" />
+                <Field Source="SalesTerritoryRegion" Dest="SalesTerritoryRegion" />
+                <Field Source="SalesTerritoryCountry" Dest="SalesTerritoryCountry" />
+                <Field Source="SalesTerritoryGroup" Dest="SalesTerritoryGroup" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Append</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=awpurcahsedw
+Query=dimsalesterritory</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>dimsalesterritory</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
